@@ -10,151 +10,84 @@
 </head>
 <body>
 <a class="skip" href="#main">본문 바로가기</a>
-
 <header class="site-header">
   <nav class="nav" aria-label="주요 메뉴">
-    <ul class="nav-list nav-left">
-      <li><a href="#about">About</a></li>
-      <li><a href="#lineup">Line-Up</a></li>
-    </ul>
-
-    <a class="brand" href="#home" aria-label="Winter Swan">
-      <img src="images/logo.png" alt="Winter Swan">
-    </a>
-
-    <ul class="nav-list nav-right">
-      <li><a href="#performance">Performance</a></li>
-      <li><a href="#gallery">Gallery</a></li>
-    </ul>
+    <ul class="nav-list nav-left"><li><a href="#about">About</a></li><li><a href="#lineup">Line-Up</a></li></ul>
+    <a class="brand" href="#home" aria-label="Winter Swan"><img src="images/logo.png" alt="Winter Swan"></a>
+    <ul class="nav-list nav-right"><li><a href="#performance">Performance</a></li><li><a href="#gallery">Gallery</a></li></ul>
   </nav>
 </header>
-
 <main id="main">
-  <section id="home" class="hero" aria-label="메인 배너">
-    <div class="hero-content" aria-hidden="true"></div>
-  </section>
-
+  <section id="home" class="hero" aria-label="메인 배너"><div class="hero-content" aria-hidden="true"></div></section>
   <section id="about" class="section about">
     <div class="inner">
-      <div class="about-head">
-        <img src="images/title1.png" alt="Welcome to the winter ballet">
-        <div class="sub">"Snow, winter and ballet"</div>
-      </div>
-      <div class="about-copy">
-        <p>발레는 음악과 움직임이 하나가 되어 무대 위에 이야기를 만들어냅니다. 차가운 겨울의 풍경과 아름다운 춤을 한 공간에 담아 겨울의 낭만을 표현합니다.</p>
-        <p>눈처럼 섬세한 움직임, 겨울처럼 깊은 음악과 함께 특별한 발레 공연을 만나보세요.</p>
-      </div>
+      <div class="about-head"><img src="images/title1.png" alt="Welcome to the winter ballet"><div class="sub">"Snow, winter and ballet"</div></div>
+      <div class="about-copy"><p>발레는 음악과 움직임이 하나가 되어 무대 위에 이야기를 만들어냅니다. 차가운 겨울의 풍경과 아름다운 춤을 한 공간에 담아 겨울의 낭만을 표현합니다.</p><p>눈처럼 섬세한 움직임, 겨울처럼 깊은 음악과 함께 특별한 발레 공연을 만나보세요.</p></div>
     </div>
     <div class="about-visual" role="img" aria-label="겨울 숲 속에서 춤추는 발레리나"></div>
   </section>
-
   <section id="lineup" class="section lineup">
     <div class="lineup-bg" aria-hidden="true"></div>
     <div class="inner">
-      <div class="section-title"><img src="images/title2.png" alt="Line up"></div>
-      <div class="lineup-list">
-        <a class="lineup-item" href="#"><img src="images/lineup1.jpg" alt="서울발레단"><span>서울발레단</span></a>
-        <a class="lineup-item" href="#"><img src="images/lineup2.jpg" alt="국립광주발레단"><span>국립광주발레단</span></a>
-        <a class="lineup-item" href="#"><img src="images/lineup3.jpg" alt="인천시립발레단"><span>인천시립발레단</span></a>
-        <a class="lineup-item" href="#"><img src="images/lineup4.jpg" alt="성남시립발레단"><span>성남시립발레단</span></a>
-        <a class="lineup-item" href="#"><img src="images/lineup5.jpg" alt="대구시립발레단"><span>대구시립발레단</span></a>
+      <div class="lineup-heading"><img src="images/title2.png" alt="Line up"></div>
+    </div>
+    <div class="lineup-stage">
+      <div class="lineup-list" role="tablist" aria-label="참여 발레단">
+        <button class="lineup-item" type="button" role="tab" aria-selected="true" data-tab="1" aria-controls="lineup-panel"><img src="images/lineup1.jpg" alt=""><span>서울발레단</span></button>
+        <button class="lineup-item" type="button" role="tab" aria-selected="false" data-tab="2" aria-controls="lineup-panel"><img src="images/lineup2.jpg" alt=""><span>국립광주발레단</span></button>
+        <button class="lineup-item" type="button" role="tab" aria-selected="false" data-tab="3" aria-controls="lineup-panel"><img src="images/lineup3.jpg" alt=""><span>인천시립발레단</span></button>
+        <button class="lineup-item" type="button" role="tab" aria-selected="false" data-tab="4" aria-controls="lineup-panel"><img src="images/lineup4.jpg" alt=""><span>성남시립발레단</span></button>
+        <button class="lineup-item" type="button" role="tab" aria-selected="false" data-tab="5" aria-controls="lineup-panel"><img src="images/lineup5.jpg" alt=""><span>대구시립발레단</span></button>
+        <button class="lineup-item" type="button" role="tab" aria-selected="false" data-tab="6" aria-controls="lineup-panel"><img src="images/lineup6.jpg" alt=""><span>서울시립발레단</span></button>
+        <button class="lineup-item" type="button" role="tab" aria-selected="false" data-tab="7" aria-controls="lineup-panel"><img src="images/lineup7.jpg" alt=""><span>국립예술프로젝트</span></button>
+        <button class="lineup-item" type="button" role="tab" aria-selected="false" data-tab="8" aria-controls="lineup-panel"><img src="images/lineup8.jpg" alt=""><span>인천시립발레단</span></button>
+        <button class="lineup-item" type="button" role="tab" aria-selected="false" data-tab="9" aria-controls="lineup-panel"><img src="images/lineup9.jpg" alt=""><span>국립발레단</span></button>
       </div>
-      <div class="lineup-info">
-        <img src="images/national_ballet.jpg" alt="국립 발레단 단체 사진">
-        <div class="lineup-text">
-          <h3>국립 발레단</h3>
-          <p>한국 발레를 대표하는 국립 발레단의 무대입니다. 클래식 발레의 아름다움과 현대적인 해석을 통해 겨울의 정취를 담은 공연을 선보입니다.</p>
-          <p>풍부한 표현력과 정교한 테크닉으로 완성된 특별한 겨울 무대를 만나보세요.</p>
-        </div>
+    </div>
+    <div class="lineup-detail-wrap">
+      <div class="lineup-detail" id="lineup-panel" role="tabpanel" aria-live="polite">
+        <img class="lineup-detail-image" src="images/tab_all_01.gif" alt="서울발레단 소개">
       </div>
     </div>
   </section>
-
   <section id="performance" class="section performance">
     <div class="inner">
       <div class="section-title"><img src="images/title3.png" alt="Performance"></div>
-
       <div class="performance-cards">
-        <article class="performance-card">
-          <img src="images/nutcracker.jpg" alt="백조의 호수 공연">
-          <div class="performance-card-content">
-            <h3>백조의 호수</h3>
-            <p>The Swan Lake</p>
-            <p>겨울 밤, 사랑과 운명을 그린 클래식 발레</p>
-            <a class="more" href="#">자세히 보기</a>
-          </div>
-        </article>
-        <article class="performance-card">
-          <img src="images/winter_story.jpg" alt="호두까기 인형 공연">
-          <div class="performance-card-content">
-            <h3>호두까기 인형</h3>
-            <p>The Nutcracker</p>
-            <p>크리스마스의 환상적인 겨울 이야기</p>
-            <a class="more" href="#">자세히 보기</a>
-          </div>
-        </article>
-        <article class="performance-card">
-          <img src="images/swanlake.jpg" alt="겨울 이야기 공연">
-          <div class="performance-card-content">
-            <h3>겨울 이야기</h3>
-            <p>Winter Tale</p>
-            <p>눈 내리는 계절에 만나는 새로운 이야기</p>
-            <a class="more" href="#">자세히 보기</a>
-          </div>
-        </article>
+        <article class="performance-card"><img src="images/nutcracker.jpg" alt="백조의 호수 공연"><div class="performance-card-content"><h3>백조의 호수</h3><p>The Swan Lake</p><p>겨울 밤, 사랑과 운명을 그린 클래식 발레</p><a class="more" href="#">자세히 보기</a></div></article>
+        <article class="performance-card"><img src="images/winter_story.jpg" alt="호두까기 인형 공연"><div class="performance-card-content"><h3>호두까기 인형</h3><p>The Nutcracker</p><p>크리스마스의 환상적인 겨울 이야기</p><a class="more" href="#">자세히 보기</a></div></article>
+        <article class="performance-card"><img src="images/swanlake.jpg" alt="겨울 이야기 공연"><div class="performance-card-content"><h3>겨울 이야기</h3><p>Winter Tale</p><p>눈 내리는 계절에 만나는 새로운 이야기</p><a class="more" href="#">자세히 보기</a></div></article>
       </div>
-
-      <div class="schedule">
-        <h3 class="schedule-title">2020.12</h3>
-        <div class="schedule-wrap">
-          <table class="schedule-table">
-            <thead>
-              <tr><th>일</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th><th>토</th></tr>
-            </thead>
-            <tbody>
-              <tr><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr>
-              <tr><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td></tr>
-              <tr><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td></tr>
-              <tr><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td></tr>
-              <tr><td>28</td><td>29</td><td>30</td><td>31</td><td></td><td></td><td></td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <div class="performance-detail">
-        <img src="images/about_nutcracker.jpg" alt="공연 장면">
-        <div>
-          <h3>백조의 호수 <small>Swan Lake</small></h3>
-          <p>2020.12.12 ~ 2020.12.19</p>
-          <p>예술의전당 오페라극장</p>
-          <p>공연시간 120분 · 인터미션 포함</p>
-          <p>차이콥스키의 아름다운 음악과 함께 펼쳐지는 클래식 발레의 대표작입니다. 무대와 조명, 의상이 어우러져 겨울밤의 환상적인 분위기를 만들어냅니다.</p>
-        </div>
-      </div>
+      <div class="schedule"><h3 class="schedule-title">2020.12</h3><div class="schedule-wrap"><table class="schedule-table"><thead><tr><th>일</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th><th>토</th></tr></thead><tbody><tr><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td></tr><tr><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td></tr><tr><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td></tr><tr><td>28</td><td>29</td><td>30</td><td>31</td><td></td><td></td><td></td></tr></tbody></table></div></div>
+      <div class="performance-detail"><img src="images/about_nutcracker.jpg" alt="공연 장면"><div><h3>백조의 호수 <small>Swan Lake</small></h3><p>2020.12.12 ~ 2020.12.19</p><p>예술의전당 오페라극장</p><p>공연시간 120분 · 인터미션 포함</p><p>차이콥스키의 아름다운 음악과 함께 펼쳐지는 클래식 발레의 대표작입니다. 무대와 조명, 의상이 어우러져 겨울밤의 환상적인 분위기를 만들어냅니다.</p></div></div>
     </div>
   </section>
-
-  <section id="gallery" class="section gallery">
-    <div class="inner">
-      <div class="section-title"><img src="images/title4.png" alt="Gallery"></div>
-      <div class="gallery-grid">
-        <a class="gallery-item" href="#"><img src="images/gallery_1.jpg" alt="공연 장면 1"><img class="play" src="images/play.png" alt=""><span class="gallery-caption">19.12.20 백조의 호수</span></a>
-        <a class="gallery-item" href="#"><img src="images/gallery_2.jpg" alt="공연 장면 2"><img class="play" src="images/play.png" alt=""><span class="gallery-caption">19.12.20 호두까기 인형</span></a>
-        <a class="gallery-item" href="#"><img src="images/gallery_3.jpg" alt="공연 장면 3"><img class="play" src="images/play.png" alt=""><span class="gallery-caption">19.12.25 겨울 이야기</span></a>
-        <a class="gallery-item" href="#"><img src="images/gallery_4.jpg" alt="공연 장면 4"><img class="play" src="images/play.png" alt=""><span class="gallery-caption">18.12.17 공연 영상</span></a>
-        <a class="gallery-item" href="#"><img src="images/gallery_5.jpg" alt="공연 장면 5"><img class="play" src="images/play.png" alt=""><span class="gallery-caption">18.12.14 특별 공연</span></a>
-        <a class="gallery-item" href="#"><img src="images/gallery_6.jpg" alt="공연 장면 6"><img class="play" src="images/play.png" alt=""><span class="gallery-caption">18.12.11 갈라 공연</span></a>
-      </div>
-    </div>
-  </section>
+  <section id="gallery" class="section gallery"><div class="inner"><div class="section-title"><img src="images/title4.png" alt="Gallery"></div><div class="gallery-grid">
+    <a class="gallery-item" href="#"><img src="images/gallery_1.jpg" alt="공연 장면 1"><img class="play" src="images/play.png" alt=""><span class="gallery-caption">19.12.20 백조의 호수</span></a>
+    <a class="gallery-item" href="#"><img src="images/gallery_2.jpg" alt="공연 장면 2"><img class="play" src="images/play.png" alt=""><span class="gallery-caption">19.12.20 호두까기 인형</span></a>
+    <a class="gallery-item" href="#"><img src="images/gallery_3.jpg" alt="공연 장면 3"><img class="play" src="images/play.png" alt=""><span class="gallery-caption">19.12.25 겨울 이야기</span></a>
+    <a class="gallery-item" href="#"><img src="images/gallery_4.jpg" alt="공연 장면 4"><img class="play" src="images/play.png" alt=""><span class="gallery-caption">18.12.17 공연 영상</span></a>
+    <a class="gallery-item" href="#"><img src="images/gallery_5.jpg" alt="공연 장면 5"><img class="play" src="images/play.png" alt=""><span class="gallery-caption">18.12.14 특별 공연</span></a>
+    <a class="gallery-item" href="#"><img src="images/gallery_6.jpg" alt="공연 장면 6"><img class="play" src="images/play.png" alt=""><span class="gallery-caption">18.12.11 갈라 공연</span></a>
+  </div></div></section>
 </main>
-
-<footer class="footer">
-  <img class="footer-logo" src="images/f_logo.png" alt="Winter Ballet">
-  <p>2020 겨울 발레 페스티벌 · Snow, winter and ballet</p>
-  <p>서울 · 대한민국</p>
-  <p class="copy">COPYRIGHT © Winter Ballet. ALL RIGHTS RESERVED.</p>
-</footer>
+<footer class="footer"><img class="footer-logo" src="images/f_logo.png" alt="Winter Ballet"><p>2020 겨울 발레 페스티벌 · Snow, winter and ballet</p><p>서울 · 대한민국</p><p class="copy">COPYRIGHT © Winter Ballet. ALL RIGHTS RESERVED.</p></footer>
+<script>
+  (() => {
+    const tabs = [...document.querySelectorAll('.lineup-item')];
+    const panelImage = document.querySelector('.lineup-detail-image');
+    tabs.forEach((tab) => tab.addEventListener('click', () => {
+      const number = String(tab.dataset.tab).padStart(2, '0');
+      tabs.forEach((item) => {
+        const selected = item === tab;
+        item.classList.toggle('is-active', selected);
+        item.setAttribute('aria-selected', String(selected));
+      });
+      panelImage.src = `images/tab_all_${number}.${number === '07' ? 'jpg' : number === '13' ? 'png' : 'gif'}`;
+      panelImage.alt = `${tab.querySelector('span').textContent} 소개`;
+    }));
+    tabs[0].classList.add('is-active');
+  })();
+</script>
 </body>
 </html>
