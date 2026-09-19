@@ -7,61 +7,50 @@
   <title>The Winter Ballet</title>
   <link rel="icon" href="images/favicon.png">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/performance.css">
 </head>
 <body>
 <a class="skip" href="#main">본문 바로가기</a>
-<header class="site-header">
-  <nav class="nav" aria-label="주요 메뉴">
-    <ul class="nav-list nav-left"><li><a href="#about">About</a></li><li><a href="#lineup">Line-Up</a></li></ul>
-    <a class="brand" href="#home" aria-label="Winter Swan"><img src="images/logo.png" alt="Winter Swan"></a>
-    <ul class="nav-list nav-right"><li><a href="#performance">Performance</a></li><li><a href="#gallery">Gallery</a></li></ul>
-  </nav>
-</header>
+<header class="site-header"><nav class="nav" aria-label="주요 메뉴">
+  <ul class="nav-list nav-left"><li><a href="#about">About</a></li><li><a href="#lineup">Line-Up</a></li></ul>
+  <a class="brand" href="#home" aria-label="Winter Swan"><img src="images/logo.png" alt="Winter Swan"></a>
+  <ul class="nav-list nav-right"><li><a href="#performance">Performance</a></li><li><a href="#gallery">Gallery</a></li></ul>
+</nav></header>
 <main id="main">
   <section id="home" class="hero" aria-label="메인 배너"><div class="hero-content" aria-hidden="true"></div></section>
-  <section id="about" class="section about">
-    <div class="inner">
-      <div class="about-head"><img src="images/title1.png" alt="Welcome to the winter ballet"><div class="sub">"Snow, winter and ballet"</div></div>
-      <div class="about-copy"><p>발레는 음악과 움직임이 하나가 되어 무대 위에 이야기를 만들어냅니다. 차가운 겨울의 풍경과 아름다운 춤을 한 공간에 담아 겨울의 낭만을 표현합니다.</p><p>눈처럼 섬세한 움직임, 겨울처럼 깊은 음악과 함께 특별한 발레 공연을 만나보세요.</p></div>
-    </div>
-    <div class="about-visual" role="img" aria-label="겨울 숲 속에서 춤추는 발레리나"></div>
+  <section id="about" class="section about"><div class="inner">
+    <div class="about-head"><img src="images/title1.png" alt="Welcome to the winter ballet"><div class="sub">"Snow, winter and ballet"</div></div>
+    <div class="about-copy"><p>발레는 음악과 움직임이 하나가 되어 무대 위에 이야기를 만들어냅니다. 차가운 겨울의 풍경과 아름다운 춤을 한 공간에 담아 겨울의 낭만을 표현합니다.</p><p>눈처럼 섬세한 움직임, 겨울처럼 깊은 음악과 함께 특별한 발레 공연을 만나보세요.</p></div>
+  </div><div class="about-visual" role="img" aria-label="겨울 숲 속에서 춤추는 발레리나"></div></section>
+  <section id="lineup" class="section lineup"><div class="lineup-bg" aria-hidden="true"></div><div class="inner"><div class="lineup-heading"><img src="images/title2.png" alt="Line up"></div></div>
+    <div class="lineup-stage"><div class="lineup-list" role="tablist" aria-label="참여 발레단">
+      <button class="lineup-item" type="button" role="tab" aria-selected="true" data-tab="1" aria-controls="lineup-panel"><img src="images/lineup1.jpg" alt=""><span>서울발레단</span></button>
+      <button class="lineup-item" type="button" role="tab" aria-selected="false" data-tab="2" aria-controls="lineup-panel"><img src="images/lineup2.jpg" alt=""><span>국립광주발레단</span></button>
+      <button class="lineup-item" type="button" role="tab" aria-selected="false" data-tab="3" aria-controls="lineup-panel"><img src="images/lineup3.jpg" alt=""><span>인천시립발레단</span></button>
+      <button class="lineup-item" type="button" role="tab" aria-selected="false" data-tab="4" aria-controls="lineup-panel"><img src="images/lineup4.jpg" alt=""><span>성남시립발레단</span></button>
+      <button class="lineup-item" type="button" role="tab" aria-selected="false" data-tab="5" aria-controls="lineup-panel"><img src="images/lineup5.jpg" alt=""><span>대구시립발레단</span></button>
+      <button class="lineup-item" type="button" role="tab" aria-selected="false" data-tab="6" aria-controls="lineup-panel"><img src="images/lineup6.jpg" alt=""><span>서울시립발레단</span></button>
+      <button class="lineup-item" type="button" role="tab" aria-selected="false" data-tab="7" aria-controls="lineup-panel"><img src="images/lineup7.jpg" alt=""><span>국립예술프로젝트</span></button>
+      <button class="lineup-item" type="button" role="tab" aria-selected="false" data-tab="8" aria-controls="lineup-panel"><img src="images/lineup8.jpg" alt=""><span>인천시립발레단</span></button>
+      <button class="lineup-item" type="button" role="tab" aria-selected="false" data-tab="9" aria-controls="lineup-panel"><img src="images/lineup9.jpg" alt=""><span>국립발레단</span></button>
+    </div></div>
+    <div class="lineup-detail-wrap"><div class="lineup-detail" id="lineup-panel" role="tabpanel" aria-live="polite"><img class="lineup-detail-image" src="images/tab_all_01.gif" alt="서울발레단 소개"></div></div>
   </section>
-  <section id="lineup" class="section lineup">
-    <div class="lineup-bg" aria-hidden="true"></div>
-    <div class="inner">
-      <div class="lineup-heading"><img src="images/title2.png" alt="Line up"></div>
+  <section id="performance" class="section performance"><div class="inner">
+    <div class="section-title"><img src="images/title3.png" alt="Performance"></div>
+    <div class="performance-cards">
+      <article class="performance-card"><img src="images/swanlake.jpg" alt="백조의 호수 무대"><div class="performance-card-content"><h3>백조의 호수</h3><p class="english-title">The Swan Lake</p><span class="divider"></span><div class="credits"><p>음악 : 표트르 일리치 차이콥스키</p><p>안무 : 유리 그리고로비치</p><p>미술 : 시몬 바르살라제</p><p>조명 : 미하일 소콜로프</p><p>지휘 : 제임스 티글</p><p>연주 : 코리안심포니오케스트라</p></div><a class="more" href="#performance-detail" data-performance="swan">자세히 보기</a></div></article>
+      <article class="performance-card"><img src="images/nutcracker.jpg" alt="호두까기 인형 무대"><div class="performance-card-content"><h3>호두까기 인형</h3><p class="english-title">The Nutcracker</p><span class="divider"></span><div class="credits"><p>원작 : E. T. A. 호프만</p><p>음악 : 표트르 일리치 차이콥스키</p><p>안무 : 마리우스 프티파</p><p>미술 : 시몬 바르살라제</p><p>조명 : 드래곤 노트</p><p>연주 : 코리안심포니오케스트라</p></div><a class="more" href="#performance-detail" data-performance="nutcracker">자세히 보기</a></div></article>
+      <article class="performance-card"><img src="images/winter_story.jpg" alt="겨울 이야기 무대"><div class="performance-card-content"><h3>겨울 이야기</h3><p class="english-title">Winter Tale</p><span class="divider"></span><div class="credits"><p>원작 : 셰익스피어</p><p>안무 : 크리스토퍼 윌던</p><p>음악 : 사라 램</p><p>조명 : 로렌 컷번</p><p>지휘 : 에드워드 왓슨</p><p>연주 : 코리안심포니오케스트라</p></div><a class="more" href="#performance-detail" data-performance="winter">자세히 보기</a></div></article>
     </div>
-    <div class="lineup-stage">
-      <div class="lineup-list" role="tablist" aria-label="참여 발레단">
-        <button class="lineup-item" type="button" role="tab" aria-selected="true" data-tab="1" aria-controls="lineup-panel"><img src="images/lineup1.jpg" alt=""><span>서울발레단</span></button>
-        <button class="lineup-item" type="button" role="tab" aria-selected="false" data-tab="2" aria-controls="lineup-panel"><img src="images/lineup2.jpg" alt=""><span>국립광주발레단</span></button>
-        <button class="lineup-item" type="button" role="tab" aria-selected="false" data-tab="3" aria-controls="lineup-panel"><img src="images/lineup3.jpg" alt=""><span>인천시립발레단</span></button>
-        <button class="lineup-item" type="button" role="tab" aria-selected="false" data-tab="4" aria-controls="lineup-panel"><img src="images/lineup4.jpg" alt=""><span>성남시립발레단</span></button>
-        <button class="lineup-item" type="button" role="tab" aria-selected="false" data-tab="5" aria-controls="lineup-panel"><img src="images/lineup5.jpg" alt=""><span>대구시립발레단</span></button>
-        <button class="lineup-item" type="button" role="tab" aria-selected="false" data-tab="6" aria-controls="lineup-panel"><img src="images/lineup6.jpg" alt=""><span>서울시립발레단</span></button>
-        <button class="lineup-item" type="button" role="tab" aria-selected="false" data-tab="7" aria-controls="lineup-panel"><img src="images/lineup7.jpg" alt=""><span>국립예술프로젝트</span></button>
-        <button class="lineup-item" type="button" role="tab" aria-selected="false" data-tab="8" aria-controls="lineup-panel"><img src="images/lineup8.jpg" alt=""><span>인천시립발레단</span></button>
-        <button class="lineup-item" type="button" role="tab" aria-selected="false" data-tab="9" aria-controls="lineup-panel"><img src="images/lineup9.jpg" alt=""><span>국립발레단</span></button>
-      </div>
-    </div>
-    <div class="lineup-detail-wrap">
-      <div class="lineup-detail" id="lineup-panel" role="tabpanel" aria-live="polite">
-        <img class="lineup-detail-image" src="images/tab_all_01.gif" alt="서울발레단 소개">
-      </div>
-    </div>
-  </section>
-  <section id="performance" class="section performance">
-    <div class="inner">
-      <div class="section-title"><img src="images/title3.png" alt="Performance"></div>
-      <div class="performance-cards">
-        <article class="performance-card"><img src="images/nutcracker.jpg" alt="백조의 호수 공연"><div class="performance-card-content"><h3>백조의 호수</h3><p>The Swan Lake</p><p>겨울 밤, 사랑과 운명을 그린 클래식 발레</p><a class="more" href="#">자세히 보기</a></div></article>
-        <article class="performance-card"><img src="images/winter_story.jpg" alt="호두까기 인형 공연"><div class="performance-card-content"><h3>호두까기 인형</h3><p>The Nutcracker</p><p>크리스마스의 환상적인 겨울 이야기</p><a class="more" href="#">자세히 보기</a></div></article>
-        <article class="performance-card"><img src="images/swanlake.jpg" alt="겨울 이야기 공연"><div class="performance-card-content"><h3>겨울 이야기</h3><p>Winter Tale</p><p>눈 내리는 계절에 만나는 새로운 이야기</p><a class="more" href="#">자세히 보기</a></div></article>
-      </div>
-      <div class="schedule"><h3 class="schedule-title">2020.12</h3><div class="schedule-wrap"><table class="schedule-table"><thead><tr><th>일</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th><th>토</th></tr></thead><tbody><tr><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td></tr><tr><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td></tr><tr><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td></tr><tr><td>28</td><td>29</td><td>30</td><td>31</td><td></td><td></td><td></td></tr></tbody></table></div></div>
-      <div class="performance-detail"><img src="images/about_nutcracker.jpg" alt="공연 장면"><div><h3>백조의 호수 <small>Swan Lake</small></h3><p>2020.12.12 ~ 2020.12.19</p><p>예술의전당 오페라극장</p><p>공연시간 120분 · 인터미션 포함</p><p>차이콥스키의 아름다운 음악과 함께 펼쳐지는 클래식 발레의 대표작입니다. 무대와 조명, 의상이 어우러져 겨울밤의 환상적인 분위기를 만들어냅니다.</p></div></div>
-    </div>
-  </section>
+    <div class="schedule"><h3 class="schedule-title">2020.12</h3><div class="schedule-wrap"><table class="schedule-table"><thead><tr><th>일</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th><th>토</th></tr></thead><tbody>
+      <tr><td></td><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr>
+      <tr><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td><span class="date">11 (금)</span><span class="event">백조의 호수</span><span class="event">호두까기 인형</span></td><td><span class="date">12 (토)</span><span class="event">백조의 호수</span><span class="event">호두까기 인형</span></td></tr>
+      <tr><td><span class="date">13 (일)</span><span class="event">백조의 호수</span><span class="event">호두까기 인형</span></td><td><span class="date">14 (월)</span><span class="event">백조의 호수</span></td><td><span class="date">15 (화)</span><span class="event">겨울 이야기</span></td><td><span class="date">16 (수)</span><span class="event">겨울 이야기</span></td><td><span class="date">17 (목)</span><span class="event">겨울 이야기</span></td><td><span class="date">18 (금)</span><span class="event">백조의 호수</span><span class="event">호두까기 인형</span></td><td><span class="date">19 (토)</span><span class="event">백조의 호수</span><span class="event">호두까기 인형</span></td></tr>
+      <tr><td><span class="date">20 (일)</span><span class="event">백조의 호수</span><span class="event">호두까기 인형</span></td><td><span class="date">21 (월)</span><span class="event">겨울 이야기</span></td><td><span class="date">22 (화)</span><span class="event">겨울 이야기</span></td><td><span class="date">23 (수)</span><span class="event">겨울 이야기</span></td><td><span class="date">24 (목)</span><span class="event">호두까기 인형</span></td><td><span class="date">25 (금)</span><span class="event">호두까기 인형</span></td><td><span class="date">26 (토)</span><span class="event">호두까기 인형</span></td></tr>
+    </tbody></table></div></div>
+    <div class="performance-detail" id="performance-detail"><img src="images/about_nutcracker.jpg" alt="백조의 호수 공연 사진"><div class="performance-detail-copy"><h3>백조의 호수 <small>(Swan Lake)</small></h3><p><span class="detail-label">일시 :</span> 2020.12.13 ~ 2020.19.20</p><p><span class="detail-label">장소 :</span> 서울 예술의전당 오페라하우스</p><p><span class="detail-label">관람시간 :</span> 160분</p><p><span class="detail-label">관람등급 :</span> 초등학생 이상</p><p><span class="detail-label">가격 :</span> R석 80,000원 · S석 50,000원 · A석 30,000원</p><p><span class="detail-label">할인 :</span> 인터파크 회원 20% 할인, 국가유공자·장애인 할인</p><p>지그프리트 왕자와 오데트 공주의 사랑을 그린 클래식 발레. 섬세한 군무와 차이콥스키의 음악이 어우러지는 작품입니다.</p><h4 class="cast-title">캐스트</h4><table class="cast-table"><thead><tr><th>구분</th><th>19일(토) 11시</th><th>20일(일) 10시</th><th>공주시</th></tr></thead><tbody><tr><th>오데트&오딜</th><td>박지수</td><td>김리현</td><td>오민서</td></tr><tr><th>지그프리트</th><td>허성</td><td>박성진</td><td>우진</td></tr><tr><th>로트바르트</th><td>이재우</td><td>박찬</td><td>김기태</td></tr></tbody></table></div></div>
+  </div></section>
   <section id="gallery" class="section gallery"><div class="inner"><div class="section-title"><img src="images/title4.png" alt="Gallery"></div><div class="gallery-grid">
     <a class="gallery-item" href="#"><img src="images/gallery_1.jpg" alt="공연 장면 1"><img class="play" src="images/play.png" alt=""><span class="gallery-caption">19.12.20 백조의 호수</span></a>
     <a class="gallery-item" href="#"><img src="images/gallery_2.jpg" alt="공연 장면 2"><img class="play" src="images/play.png" alt=""><span class="gallery-caption">19.12.20 호두까기 인형</span></a>
@@ -73,21 +62,35 @@
 </main>
 <footer class="footer"><img class="footer-logo" src="images/f_logo.png" alt="Winter Ballet"><p>2020 겨울 발레 페스티벌 · Snow, winter and ballet</p><p>서울 · 대한민국</p><p class="copy">COPYRIGHT © Winter Ballet. ALL RIGHTS RESERVED.</p></footer>
 <script>
-  (() => {
-    const tabs = [...document.querySelectorAll('.lineup-item')];
-    const panelImage = document.querySelector('.lineup-detail-image');
-    tabs.forEach((tab) => tab.addEventListener('click', () => {
-      const number = String(tab.dataset.tab).padStart(2, '0');
-      tabs.forEach((item) => {
-        const selected = item === tab;
-        item.classList.toggle('is-active', selected);
-        item.setAttribute('aria-selected', String(selected));
-      });
-      panelImage.src = `images/tab_all_${number}.${number === '07' ? 'jpg' : number === '13' ? 'png' : 'gif'}`;
-      panelImage.alt = `${tab.querySelector('span').textContent} 소개`;
-    }));
-    tabs[0].classList.add('is-active');
-  })();
+(() => {
+  const tabs = [...document.querySelectorAll('.lineup-item')];
+  const panelImage = document.querySelector('.lineup-detail-image');
+  tabs.forEach((tab) => tab.addEventListener('click', () => {
+    const number = String(tab.dataset.tab).padStart(2, '0');
+    tabs.forEach((item) => { const selected = item === tab; item.classList.toggle('is-active', selected); item.setAttribute('aria-selected', String(selected)); });
+    panelImage.src = `images/tab_all_${number}.${number === '07' ? 'jpg' : number === '13' ? 'png' : 'gif'}`;
+    panelImage.alt = `${tab.querySelector('span').textContent} 소개`;
+  }));
+  tabs[0].classList.add('is-active');
+  const performanceData = {
+    swan: {title:'백조의 호수',english:'Swan Lake',image:'images/about_nutcracker.jpg',date:'2020.12.13 ~ 2020.12.20',place:'서울 예술의전당 오페라하우스',duration:'160분',rating:'초등학생 이상',description:'지그프리트 왕자와 오데트 공주의 사랑을 그린 클래식 발레. 섬세한 군무와 차이콥스키의 음악이 어우러지는 작품.'},
+    nutcracker: {title:'호두까기 인형',english:'The Nutcracker',image:'images/nutcracker.jpg',date:'2020.12.11 ~ 2020.12.26',place:'서울 예술의전당 오페라하우스',duration:'120분',rating:'초등학생 이상',description:'크리스마스이브에 펼쳐지는 마리의 환상적인 모험과 장난감 병정, 과자 나라의 이야기를 담은 발레.'},
+    winter: {title:'겨울 이야기',english:'Winter Tale',image:'images/winter_story.jpg',date:'2020.12.15 ~ 2020.12.23',place:'서울 예술의전당 오페라하우스',duration:'110분',rating:'초등학생 이상',description:'겨울의 풍경과 셰익스피어의 이야기를 발레의 움직임으로 새롭게 풀어낸 작품.'}
+  };
+  document.querySelectorAll('[data-performance]').forEach((link) => link.addEventListener('click', () => {
+    const item = performanceData[link.dataset.performance];
+    const detail = document.querySelector('.performance-detail');
+    detail.querySelector('img').src = item.image;
+    detail.querySelector('img').alt = `${item.title} 공연 사진`;
+    detail.querySelector('h3').innerHTML = `${item.title} <small>(${item.english})</small>`;
+    const ps = detail.querySelectorAll('.performance-detail-copy > p');
+    ps[0].innerHTML = `<span class="detail-label">일시 :</span> ${item.date}`;
+    ps[1].innerHTML = `<span class="detail-label">장소 :</span> ${item.place}`;
+    ps[2].innerHTML = `<span class="detail-label">관람시간 :</span> ${item.duration}`;
+    ps[3].innerHTML = `<span class="detail-label">관람등급 :</span> ${item.rating}`;
+    ps[6].textContent = item.description;
+  }));
+})();
 </script>
 </body>
 </html>
