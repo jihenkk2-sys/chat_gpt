@@ -1,0 +1,39 @@
+/* Performance section — aligned to supplied PC, tablet and mobile comps */
+.performance{padding:72px 0 95px;background:#1b1b1b url('../images/performance_bg.png') center top/cover no-repeat}
+.performance .section-title{margin:0 auto 48px}
+.performance .section-title img{width:160px;max-width:50vw}
+.performance-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;align-items:stretch}
+.performance-card{position:relative;isolation:isolate;min-height:390px;aspect-ratio:2/2.35;overflow:hidden;border:0;background:#080d12}
+.performance-card>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .35s,filter .35s;filter:brightness(.55)}
+.performance-card::after{content:'';position:absolute;inset:0;z-index:0;background:linear-gradient(180deg,rgba(0,0,0,.2),rgba(0,0,0,.68))}
+.performance-card-content{position:absolute;z-index:1;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:26px 18px;color:#f7f7f7}
+.performance-card h3{margin:0 0 2px;font-size:clamp(20px,2vw,30px);font-weight:700;line-height:1.4}
+.performance-card .english-title{margin:0 0 14px;color:#eee;font-size:14px;line-height:1.4}
+.performance-card .divider{width:34px;height:1px;background:#ddd;margin:0 auto 18px}
+.performance-card .credits{margin:0;font-size:clamp(11px,1.05vw,15px);line-height:1.7;color:#eee}
+.performance-card .credits p{margin:0}
+.performance-card .more{display:inline-block;margin-top:22px;padding:5px 18px;border:1px solid rgba(255,255,255,.8);border-radius:20px;font-size:11px;line-height:1.5;transition:background .2s,color .2s}
+.performance-card:hover>img,.performance-card:focus-within>img{transform:scale(1.045);filter:brightness(.8)}
+.performance-card .more:hover{background:#fff;color:#151515}
+.schedule{margin:48px auto 0;max-width:1000px}
+.schedule-title{text-align:center;font-size:23px;font-weight:500;margin:0 0 10px}
+.schedule-wrap{overflow-x:auto}
+.schedule-table{width:100%;min-width:690px;table-layout:fixed;border-collapse:collapse;background:rgba(70,70,70,.95);font-size:11px;line-height:1.45}
+.schedule-table th,.schedule-table td{border:1px solid #242424;padding:8px 5px;text-align:center}
+.schedule-table th{background:#282828;font-weight:500;color:#f5f5f5}
+.schedule-table td{height:68px;color:#eee;vertical-align:top}
+.schedule-table td .date{display:block;text-align:left;color:#ddd;margin-bottom:4px}
+.schedule-table td .event{display:block;font-size:10px;line-height:1.45}
+.schedule-table td .event+.event{margin-top:3px}
+.performance-detail{margin:52px auto 0;max-width:1000px;display:grid;grid-template-columns:1.15fr 1fr;gap:22px;align-items:start}
+.performance-detail>img{width:100%;height:auto;object-fit:cover}
+.performance-detail h3{margin:0 0 8px;font-size:21px;line-height:1.45}
+.performance-detail h3 small{font-size:11px;font-weight:400}
+.performance-detail p{margin:3px 0;color:#ddd;font-size:11px;line-height:1.65}
+.performance-detail .detail-label{font-weight:600;color:#fff}
+.performance-detail .cast-title{margin:14px 0 5px;font-size:12px;font-weight:600}
+.performance-detail .cast-table{width:100%;border-collapse:collapse;font-size:10px;text-align:center}
+.performance-detail .cast-table th,.performance-detail .cast-table td{padding:5px 4px;border:1px solid #333;background:rgba(70,70,70,.85)}
+.performance-detail .cast-table th{font-weight:500;color:#eee}
+@media(max-width:1100px){.performance{padding:65px 0 80px}.performance .section-title{margin-bottom:38px}.performance-cards{gap:12px}.performance-card{min-height:310px}.performance-card-content{padding:18px 12px}.performance-card h3{font-size:clamp(17px,2.6vw,25px)}.performance-card .english-title{font-size:12px;margin-bottom:10px}.performance-card .credits{font-size:clamp(9px,1.4vw,13px)}.performance-card .more{margin-top:15px}.schedule{margin-top:38px}.performance-detail{gap:16px;margin-top:42px}}
+@media(max-width:600px){.performance{padding:40px 0 58px;background-size:auto 100%}.performance .section-title{margin-bottom:24px}.performance .section-title img{width:112px}.performance-cards{grid-template-columns:1fr;gap:12px}.performance-card{min-height:0;aspect-ratio:1.1/1;width:100%}.performance-card-content{padding:18px 22px}.performance-card h3{font-size:25px}.performance-card .english-title{font-size:12px;margin-bottom:10px}.performance-card .divider{margin-bottom:12px}.performance-card .credits{font-size:12px;line-height:1.55}.performance-card .more{margin-top:16px;font-size:10px;padding:4px 15px}.schedule{margin-top:28px}.schedule-title{font-size:16px;margin-bottom:8px}.schedule-table{min-width:0;width:100%;font-size:9px}.schedule-table th,.schedule-table td{padding:5px 3px}.schedule-table td{height:52px}.schedule-table td .event{font-size:8px}.schedule-table td .date{margin-bottom:2px}.performance-detail{grid-template-columns:1fr;gap:14px;margin-top:30px}.performance-detail h3{font-size:16px}.performance-detail h3 small{font-size:10px}.performance-detail p{font-size:10px}.performance-detail .cast-title{margin-top:10px}.performance-detail .cast-table{font-size:9px}}
