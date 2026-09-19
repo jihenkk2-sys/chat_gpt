@@ -13,10 +13,16 @@
 
 <header class="site-header">
   <nav class="nav" aria-label="주요 메뉴">
-    <a class="brand" href="#home"><img src="images/logo.png" alt="Winter Ballet"></a>
-    <ul class="nav-list">
+    <ul class="nav-list nav-left">
       <li><a href="#about">About</a></li>
-      <li><a href="#lineup">Line-up</a></li>
+      <li><a href="#lineup">Line-Up</a></li>
+    </ul>
+
+    <a class="brand" href="#home" aria-label="Winter Swan">
+      <img src="images/logo.png" alt="Winter Swan">
+    </a>
+
+    <ul class="nav-list nav-right">
       <li><a href="#performance">Performance</a></li>
       <li><a href="#gallery">Gallery</a></li>
     </ul>
@@ -25,13 +31,7 @@
 
 <main id="main">
   <section id="home" class="hero" aria-label="메인 배너">
-    <div class="hero-content">
-      <div class="hero-copy">
-        <p>The winter</p>
-        <div class="script">Ballet</div>
-        <div class="hero-line"></div>
-      </div>
-    </div>
+    <div class="hero-content" aria-hidden="true"></div>
   </section>
 
   <section id="about" class="section about">
